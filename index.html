@@ -12,18 +12,147 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
-        <nav class="portfolio_nav">
-            <h3 class="nav_title">Ma<span>r</span>y</h3>
+    <header class="header">
+        <!-- ===== nav section ===== -->
+        <nav>
+            <h3 class="nav_title dark_1">Ma<span class="text_primary">r</span>y</h3>
             <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href=""><button>Hire Me</button></a></li>
+                <li><a class="dark_2" href="">Portfolio</a></li>
+                <li><a class="dark_2" href="">Blog</a></li>
+                <li><a href=""><button class="btn_primary">Hire Me</button></a></li>
             </ul>
         </nav>
+
+        <!-- ===== banner section ===== -->
+         <div class="banner_section">
+            <div class="banner_content">
+                <h4 class="banner_greetings dark_2">Hi, I  am</h4>
+                <h1 class="banner_title dark_1">Mary Hardy</h1>
+                <p class="banner_description dark_3">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                <div class="banner_button">
+                    <button class="btn_primary">Download CV</button>
+                    <button class="btn_contact">Contact</button>
+                </div>
+            </div>
+            <img class="banner_profile_pic" src="images/hardy.png"  alt="Images of hardy">
+         </div>
+
     </header>
 
     <main>
+         <!-- ===== about section ===== -->
+        <section class="about secondary_background text_center">
+            <div class="section_items">
+                <h3 class="section_title dark_1">About Me</h3>
+            <p class="section_descritption dark_3">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets clients requirements in our mate.</p>
+            <div class="about_items">
+                <div class="about_item">
+                    <p class="item_title">Name:</p>
+                    <p class="item_description">Mary Hardy </p>
+                </div>
+                <div class="about_item">
+                    <p class="item_title">Email:</p>
+                    <p class="item_description">info@gmail.com</p>
+                </div>
+                <div class="about_item">
+                    <p class="item_title">Date of birth:</p>
+                    <p class="item_description">11 November 1987</p>
+                </div>
+                <div class="about_item">
+                    <p class="item_title">From:</p>
+                    <p class="item_description">Los Angeles, USA</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- ===== skill section ===== -->
+         <section class="skills text_center">
+            <h3 class="section_title skill_section_title dark_1">What I do</h3>
+            <p class="section_descritption skill_section_description dark_3">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+
+            <div class="skills_container">
+                <div class="skills_item">
+                    <img src="images/icons/js.png" alt="JavaScript">
+                    <h4 class="skill_title">Vanilla JavaScript</h4>
+                    <p class="skill_description dark_3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills_item">
+                    <img src="images/icons/react.png" alt="React">
+                    <h4 class="skill_title">React</h4>
+                    <p class="skill_description dark_3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills_item">
+                    <img src="images/icons/nodejs.png" alt="Node.js">
+                    <h4 class="skill_title">Node.js</h4>
+                    <p class="skill_description dark_3">List skill/technologies here.
+                        You can change the icon above to any of the 1500+ 
+                        FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills_item">
+                    <img src="images/icons/mongo.png" alt="MongoDB">
+                    <h4 class="skill_title">MongoDB</h4>
+                    <p class="skill_description dark_3">
+                        List skill/technologies here.You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- ===== resume section ===== -->
+          <section class="resume">
+            <h3 class="section_title text_center">A summary of My Resume</h3>
+            <div class="resume_container">
+                <!-- .resume_column*2>h3.resume_column_title+.experience*3>h4.experience_title+h5.experience_subtitle+p.experience_description -->
+                <div class="resume_column">
+                    <h3 class="resume_column_title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience_title">Master in Computer Engineering</h4>
+                        <h5 class="experience_subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience_title">Master in Computer Engineering</h4>
+                        <h5 class="experience_subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience_title">Master in Computer Engineering</h4>
+                        <h5 class="experience_subtitle">Harvard University / 2015 - 2017</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+
+
+                <div class="resume_column">
+                    <h3 class="resume_column_title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience_title">Sr. Font End Developer</h4>
+                        <h5 class="experience_subtitle">Apple Inc / 2020 - Current</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor. </p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience_title">Sr. Font End Developer</h4>
+                        <h5 class="experience_subtitle">Apple Inc / 2020 - Current</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience_title">Sr. Font End Developer</h4>
+                        <h5 class="experience_subtitle">Apple Inc / 2020 - Current</h5>
+                        <p class="experience_description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
 
     </main>
     

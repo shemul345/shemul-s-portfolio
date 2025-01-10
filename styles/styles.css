@@ -1,4 +1,7 @@
-
+*{
+    /* margin: 0;
+    padding: 0; */
+}
 
 /*
 
@@ -6,20 +9,221 @@ font-family: "Open Sans", serif;
 
 */
 
-
-/* nav styles */
-.portfolio_nav{
-    display: flex;
+/* ===== shared styles ===== */
+.text_primary{
+    color: #FD6E0A;
 }
-.portfolio_nav ul li{
+.dark_1{
+    color: #181818;
+}
+.dark_2{
+    color: #474747;
+}
+.dark_3{
+    color: #757575;
+}
+.btn_primary{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.secondary_background{
+    background-color: #FFF8F3;
+}
+
+.text_center{
+    text-align: center;
+}
+
+/* ===== nav styles ===== */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+nav li{
     list-style: none;
+    margin-right: 50px;
 }
 .nav_title{
     font-family: "Open Sans", serif;
     font-weight: 800;
     font-size: 45px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav ul{
+    display: flex; 
+    align-items: center;
+}
+
+/* ===== banner styles ===== */
+.banner_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.btn_contact{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+}
+
+.banner_greetings{
+    font-family: "Open Sans", serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+.banner_title{
+    font-family: "Open Sans", serif;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner_description{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.banner_content{
+    max-width: 580px;
+}
+.banner_profile_pic{
+    max-width: 580px;
+    margin-right: -25px;
+}
+.banner_button{
+    display: flex;
+    gap: 40px;
+}
+
+/* ===== about styles ===== */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px 155px;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+.section_items{
+    border: 1px solid #181818;
+    background-color: #ffffff;
+}
+.section_title{
+    font-family: "Open Sans", serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top:6px;
+}
+.section_descritption{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_title{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #757575;
+    margin-bottom: -15px;
+}
+.item_description{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* ===== skills styles ===== */
+.skills{
+    padding: 0 110px 0 120px;
+    margin-bottom: 130px;
+}
+.skill_title{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
     color: #181818;
 }
-.nav_title span{
-    color: #FD6E0A;
+.skill_description{
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.skills_container{
+    display: flex;
+    gap: 24px;
+}
+.skills_item{
+    padding: 30px 30px 20px 30px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill_section_title{
+    margin-bottom: 40px;
+}
+.skill_section_description{
+    margin-bottom: 50px;
+}
+
+/* ===== resume styles ===== */
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.resume_column_title{
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.experience_title{
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: -25px;
+}
+.experience_subtitle{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience_description{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding-right: 70px;
+    margin-bottom: 20px;
 }
