@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/d313f4c50e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -30,8 +31,9 @@
                 <h1 class="banner_title dark_1">Mary Hardy</h1>
                 <p class="banner_description dark_3">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
                 <div class="banner_button">
-                    <button class="btn_primary">Download CV</button>
-                    <button class="btn_contact">Contact</button>
+                    <button class="btn_primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn_contact">
+                        <i class="fa-solid fa-phone"></i> Contact</button>
                 </div>
             </div>
             <img class="banner_profile_pic" src="images/hardy.png"  alt="Images of hardy">
@@ -152,12 +154,26 @@
                     </div>
                 </div>
             </div>
+            <div class="button"><button class="btn_primary"><i class="fa-solid fa-download"></i> Download CV</button></div>
           </section>
 
     </main>
     
-    <footer>
-
+    <footer class="footer secondary_background">
+        <section class="footer_column">
+            <h3 class="section_title">Lets Connect</h3>
+            <p class="footer_section_description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <a href=""><img src="images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="images/icons/twitter.png" alt=""></a>
+            <a href=""><img src="images/icons/insta.png" alt=""></a>
+        </section>
+        <section class="footer_column">
+            <h3 class="section_title">Let’s Message me</h3>
+            <input type="text" name="" placeholder="Your name" id="">
+            <input type="email" name="" placeholder="Your email" id="">
+            <textarea name="" id="" cols="20" rows="20" placeholder="Send your message "></textarea>
+            <input type="submit" class="btn_primary" value="Submit">
+        </section>
     </footer>
 </body>
 </html>

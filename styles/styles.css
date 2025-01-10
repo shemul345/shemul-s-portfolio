@@ -227,3 +227,46 @@ main{
     padding-right: 70px;
     margin-bottom: 20px;
 }
+.button{
+    text-align: center;
+    margin-top: 45px;
+}
+
+/* ===== footer styles ===== */
+.footer_section_description{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer_column a{
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.footer{
+    display: flex;
+    padding: 130px 385px 130px 230px;
+    justify-content: space-between;
+    gap: 110px;
+    margin-top: 115px;
+}
+.footer_column{
+    width: 50%;
+}
+input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0 0 0 30px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 24px;
+}
+textarea{
+    padding-top: 15px;
+    height: 120px;
+}
+
